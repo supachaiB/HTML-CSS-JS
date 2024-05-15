@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Travel Website Design Using HTML CSS & JavaScript</title>
+    <!-- setup remixicon.com -->
+
+
+    <link rel="stylesheet" href="style.css">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIXICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+
+</head>
+<body>
+    <!--==================== HEADER ====================-->
+    <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav_logo">
+                Travel
+            </a>
+
+            <div class="nav_menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li class="nav_item">
+                        <a href="#Home" class="nav_link" >Home</a>
+                    </li>
+                     
+                    <li class="nav_item">
+                        <a href="#about" class="nav_link" >About</a>
+                    </li>
+
+                    <li class="nav_item">
+                        <a href="#popular" class="nav_link" >Popular</a>
+                    </li>
+                    
+                    <li class="nav_item">
+                        <a href="#explore" class="nav_link" >Explore</a>
+                    </li>
+                </ul>
+
+                <!-- Close button -->
+                <div class="nav_close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <!-- Toggle button -->
+            <div class="nav_toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+             </div>
+         </nav>
+    </header>
+
+    <!--==================== MAIN ====================-->
+    <main class="main">
+       <!--==================== HOME ====================-->
+       <section class="home section" id="home">
+          <img src="/img/home-bg.jpg" alt="home image" class="home_bg">
+          <div class="home_shadow"></div>
+
+          <div class="home_container container grid">
+            <div class="home_data">
+                <h3 class="home_subtitle">
+                    Welcome To Travel
+                </h3>
+
+                <h1 class="home_title">
+                    Explore <br>
+                    The World
+                </h1>
+
+                <p class="home_description">
+                    Live the trips exploring the world, discover
+                    paradises, islands, mountains and much
+                    more, get your trip now.
+                </p>
+
+                <a href="#" class="button">
+                    Start Your Journey <i class="ri-arrow-right-fill"></i>
+                </a>
+            </div>
+
+            <div class="home_cards grid">
+                <article class="home_card">
+                    <img src="img/home-trees.jpg" alt="home image" class="home_card-img">
+                    <h3 class="home_card-title">Croatia</h3>
+                    <div class="home_card-shadow"></div>
+                </article>
+
+                <article class="home_card">
+                    <img src="img/home-lake.jpg" alt="home image" class="home_card-img">
+                    <h3 class="home_card-title">Iceland</h3>
+                    <div class="home_card-shadow"></div>
+                </article>
+
+                <article class="home_card">
+                    <img src="img/home-mountain.jpg" alt="home image" class="home_card-img">
+                    <h3 class="home_card-title">Italy</h3>
+                    <div class="home_card-shadow"></div>
+                </article>
+
+                <article class="home_card">
+                    <img src="img/home-beach.jpg" alt="home image" class="home_card-img">
+                    <h3 class="home_card-title">Spain</h3>
+                    <div class="home_card-shadow"></div>
+                </article>
+            </div>
+          </div>
+       </section>
+
+       <!--==================== ABOUT ====================-->
+       <section class="about section" id="about">
+          <div class="about_container container grid">
+            <div class="about_data">
+                <h2 class="section_title">
+                    Learn More <br>
+                    About Travel
+                </h2>
+
+                <p class="about_description">
+                    All the trips around the world are a greate
+                    pleasure and happiness for anyone, enjoy
+                    the sights when you travel the world. Travel
+                    sately and without worries, get your trip and 
+                    explore the paradises of the world.
+                </p>
+
+                <a href="#" class="button">
+                    Explore Travel <i class="ri-arrow-right-fill"></i>
+                </a>
+            </div>
+
+            <div class="about_image">
+                <img src="img/about-beach.jpg" alt="about image" class="about_img">
+                <div class="about_shadow"></div>
+            </div>
+          </div> 
+       </section>
+
+       <!--==================== POPULAR ====================-->
+       <section class="popular section" id="popular">
+          <h2 class="section_title">
+            Enjoy The Beauty <br>
+            Of The World
+          </h2>
+
+          <div class="popular_container container grid">
+            <article class="popular_card">
+                <div class="popular_image">
+                    <img src="img/popular-mountain.jpg" alt="popular image" class="popular_img">
+                    <div class="popular_shadow"></div>
+                </div>
+
+                <h2 class="popular_title">
+                    Logan Mountain
+                </h2>
+
+                <div class="popular_location">
+                    <i class="ri-map-pin-line"></i>
+                    <span>Canada</span>
+                </div>
+            </article>
+
+            <article class="popular_card">
+                <div class="popular_image">
+                    <img src="img/popular-forest.jpg" alt="popular image" class="popular_img">
+                    <div class="popular_shadow"></div>
+                </div>
+
+                <h2 class="popular_title">
+                   Spike Forest
+                </h2>
+
+                <div class="popular_location">
+                    <i class="ri-map-pin-line"></i>
+                    <span>Irland</span>
+                </div>
+            </article>
+
+            <article class="popular_card">
+                <div class="popular_image">
+                    <img src="img/popular-lake.jpg" alt="popular image" class="popular_img">
+                    <div class="popular_shadow"></div>
+                </div>
+
+                <h2 class="popular_title">
+                    Garda Lake
+                </h2>
+
+                <div class="popular_location">
+                    <i class="ri-map-pin-line"></i>
+                    <span>Italy</span>
+                </div>
+            </article>
+          </div>
+       </section>
+       
+       <!--==================== EXPLORE ====================-->
+       <section class="explore section" id="explore">
+          
+       </section>
+       
+       <!--==================== JOIN ====================-->
+       <section class="join section">
+          
+       </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer">
+       
+    </footer>
+
+    <!--========== SCROLL UP ==========-->
+    
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src=""></script>
+
+    <script src="main.js"></script>
+</body>
+</html>
